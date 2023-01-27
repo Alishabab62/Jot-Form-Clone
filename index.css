@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 70px;
+  font-family: "Circular", "CircularStd", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  display: flex;
+  justify-content: center;
+}
+header .main-container {
+  height: 70px;
+  width: 1224px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .main-container .logo-div {
+  width: 207px;
+}
+header .main-container svg {
+  height: 30px;
+  width: 167px;
+}
+header .main-container .tab-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 760px;
+  padding: 0px 16px;
+}
+header .main-container .tab-div .box {
+  width: 104px;
+  font-size: 16px;
+  font-weight: 400;
+
+  display: flex;
+  align-items: center;
+}
+header .main-container .tab-div .box i {
+  font-size: 13px;
+}
+header .main-container .tab-div .box:hover {
+  color: #ff6100;
+}
+header .main-container .login-signup {
+  display: flex;
+  align-items: center;
+  width: 177px;
+  height: 100%;
+}
+header .main-container .login-signup .login {
+  width: 72px;
+}
+header .main-container .login-signup .login:hover {
+  color: #ff6100;
+}
+header .main-container .login-signup .signup {
+  width: 82px;
+  background: #ff6100;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+  padding: 8px;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-content .first-heading{
+    font-size: 62px;
+    color: rgb(10,21,81);
+    font-weight: 700;
+    font-family: "Circular", "CircularStd", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 64px;
+    text-align: center;
+    margin-top: 50px;
+}
+.main-content .sub-para{
+    margin-top: 32px;
+    color: rgb(84, 94, 128);
+    font-size:28px;
+    font-family: "Circular", "CircularStd", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.main-content .img-signup {
+  display: flex;
+  margin: 24px 0px;
+}
+.main-content .img-signup img {
+  height: 324px;
+  width: 209;
+}
+.main-content .img-signup .sign-up-main{
+    width: 325px;
+    height: 350px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-family: "Circular", "CircularStd", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+    padding: 20px;
+    position: relative;
+}
+
+.main-content .img-signup .sign-up-main .google{
+    background-color: #0070f3;
+    font-weight: 500;
+    width: 100%;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: white;
+    padding: 13px 10px;
+}
+.main-content .img-signup .sign-up-main .facebook{
+    background-color: #4267b2;
+    font-weight: 500;
+    width: 100%;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: white;
+    padding: 13px 10px;
+    margin: 25px 0px;
+}
+.main-content .img-signup .sign-up-main .email{
+    background-color: #ff6100;;
+    font-weight: 500;
+    width: 100%;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: white;
+    padding: 13px 10px;
+}
+.main-content .img-signup .text{
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+    font-size: 20px;
+    color: lightslategray;
+}
+
+section .feature-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FCF1E1;
+    width: 100%;
+}
+section .container{
+    height: auto;
+    width: auto;
+} 
+
+section .first{
+    height: auto;
+    width: auto;
+    color: rgb(173,217,242);
+}
+section .second{
+    height: auto;
+    width: auto;
+    color: rgb(247,208,195);
+}
+section .third{
+    height: auto;
+    width: auto;
+    color: rgb(236,212,216);
+}
