@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    font-family: "Circular", "CircularStd", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+}
+header .logo-div{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 20px;
+}
+header .logo-div img{
+    height: 30px;
+    width: 166px;
+}
+header .form{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(10,21,81);
+    
+}
+header .right-div{
+    display: flex;
+    margin-right: 20px;
+}
+header .right-div .container{
+    color: rgb(10,21,81);
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(227,229,245);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0px 10px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+header .right-div i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+nav{
+    background: linear-gradient(270deg,#ff6100,#ffb841 99.97%);
+    height: 44px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+nav .content{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Circular", "CircularStd", -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol";
+}
+nav .content .content-btn{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+nav .content-btn .box{
+    color: white;
+    padding: 10px 27px;
+    font-size: 18px;
+    cursor: pointer;
+}
+nav .content-btn .box:hover{
+    background-color: #ff620070;
+}
+nav .content .right-div{
+    color: white;
+    margin-right: 20px;
+    font-size: 18px;
+}

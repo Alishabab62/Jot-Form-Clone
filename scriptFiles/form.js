@@ -34,10 +34,10 @@ backCut.addEventListener("click",()=>{
     layOutSection.style.display="none";
 })
 
-
+const createForm = document.querySelector('.create-form-section');
 const cut = document.querySelector('.cut');
 cut.addEventListener('click' ,()=>{
     mainContent.style.display="flex";
     nav.style.display="flex";
-    createFormSEction.style.display="none";
+    createForm.style.display="none";
 })

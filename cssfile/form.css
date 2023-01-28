@@ -23,11 +23,8 @@
   }
   header .main-container .logo-div {
     display: flex;
-  }
-  header .main-container svg {
-    height: 30px;
-    width: 167px;
-    margin-left: 30px;
+    height: 60%;
+    margin-left: 20px;
   }
   header .main-container .tab-div {
     display: flex;
