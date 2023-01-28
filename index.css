@@ -34,13 +34,17 @@ header .main-container .tab-div {
   width: 760px;
   padding: 0px 16px;
 }
+header .main-container .tab-div a{
+  text-decoration: none;
+  color: #24356A;
+}
 header .main-container .tab-div .box {
-  width: 104px;
   font-size: 16px;
   font-weight: 400;
-
+  
   display: flex;
   align-items: center;
+  height: 60%;
 }
 header .main-container .tab-div .box i {
   font-size: 13px;
@@ -67,6 +71,7 @@ header .main-container .login-signup .signup {
   text-align: center;
   color: white;
   padding: 8px;
+  font-weight: 400;
 }
 
 section {
@@ -108,8 +113,8 @@ section {
   height: 324px;
   width: 209;
 }
-.main-content .img-signup .sign-up-main{
-    width: 325px;
+ .sign-up-main{
+    width: 400px;
     height: 350px;
     border: 2px solid gray;
     border-radius: 10px;
@@ -118,9 +123,22 @@ section {
     "Segoe UI Emoji", "Segoe UI Symbol";
     padding: 20px;
     position: relative;
+    background-color: white;
 }
-
-.main-content .img-signup .sign-up-main .google{
+.sign-up-main i{
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  color: #0070f3;
+  margin-right: 20px;
+}
+.sign-up-main .facebook i{
+  padding: 10px 15px;
+}
+.sign-up-main .google i{
+  padding: 10px 12px;
+}
+ .sign-up-main .google{
     background-color: #0070f3;
     font-weight: 500;
     width: 100%;
@@ -131,7 +149,7 @@ section {
     color: white;
     padding: 13px 10px;
 }
-.main-content .img-signup .sign-up-main .facebook{
+ .sign-up-main .facebook{
     background-color: #4267b2;
     font-weight: 500;
     width: 100%;
@@ -143,7 +161,7 @@ section {
     padding: 13px 10px;
     margin: 25px 0px;
 }
-.main-content .img-signup .sign-up-main .email{
+ .sign-up-main .email{
     background-color: #ff6100;;
     font-weight: 500;
     width: 100%;
@@ -154,7 +172,7 @@ section {
     color: white;
     padding: 13px 10px;
 }
-.main-content .img-signup .text{
+ .text{
     position: absolute;
     bottom: 20px;
     left: 40%;
@@ -168,23 +186,150 @@ section .feature-container{
     background-color: #FCF1E1;
     width: 100%;
 }
-section .container{
-    height: auto;
-    width: auto;
-} 
+.feature-container img{
+    height: 100%;
+    width: 100%;
+}
 
-section .first{
-    height: auto;
-    width: auto;
-    color: rgb(173,217,242);
+.sign-up-container-second{
+    background-color: #0C174E;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 90px;
 }
-section .second{
-    height: auto;
-    width: auto;
-    color: rgb(247,208,195);
+.sign-up-container-second .heading{
+    color: white;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: "Circular", "CircularStd", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+    margin-top: 90px;
 }
-section .third{
-    height: auto;
-    width: auto;
-    color: rgb(236,212,216);
+
+.sign-up-container-second .sub-para{
+    font-size: 22px;
+    color: rgb(166,171,198);
+    font-weight: 400;
+    font-family: "Circular", "CircularStd", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+    margin-bottom: 30px;
+}
+footer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  font-family: "Circular", "CircularStd", -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol";
+}
+footer .footer-first{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 80px;
+}
+footer .footer-first .main-container .container{
+  font-family: "Circular", "CircularStd", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #454E80;
+  padding: 10px 0px;
+  font-size: 18px;
+  cursor: pointer;
+}
+footer .main-container .container:hover{
+  color: #ff6100;
+}
+footer .footer-first .main-container .heading{
+  font-weight: bold;
+  color: #0c174e;
+  font-weight: 700;
+}
+footer .footer-first .container img{
+  width: 150px;
+}
+
+footer .footer-second{
+  width: 100%;
+  background-color: #f3f3fe;
+  display: flex;
+  justify-content: center;
+}
+footer .footer-second .main-container{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23px 0px;
+}
+footer .footer-second .first-div{
+  display: flex;
+  align-items: center;
+}
+footer .footer-second .first-div .logo{
+  margin-right: 30px;
+}
+footer .footer-second .content-div{
+  margin: 5px 0px;
+}
+
+footer .footer-second .dropdown select{
+  border-radius: 5px;
+  border: 1px solid #d5ddf9;
+  color: #0a1551;
+  padding: 10px 8px 10px 9px;
+  font-size: 16px;
+  width: 150px;
+}
+footer .footer-third{
+  width: 100%;
+  background-color: #c8ceed;
+  display: flex;
+  justify-content: center;
+  
+}
+footer .footer-third .main-container{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+}
+
+footer .footer-third .main-container .box-container{
+  display: flex;
+  align-items: center;
+}
+footer .footer-third .main-container .box-container .container{
+  border-right: 2px solid #7680b5;
+  padding: 5px 16px;
+  color: #454E80;
+  cursor: pointer;
+  font-size: 16px;
+}
+footer .footer-third .main-container .box-container .container:hover{
+  color: #ff6100;
+}
+.footer-third .main-container .logo-container{
+  height: 100%;
+  width: 314px;
+  display: flex;
+  align-items: center;
+}
+footer .main-container .logo-container .logo-box{
+  width:60px;
+  height:60px;
+  display: flex;
+  align-items: center;
+  margin: 0px 5px;
+}
+footer .main-container .logo-container .logo-box svg{
+  
 }
